@@ -3,7 +3,7 @@ import os
 from homework.src.wordcount import main
 
 
-def test_migracion():
+def test_migration():
     main()
     if not os.path.exists("data/output/results.tsv"):
         raise FileNotFoundError("El archivo results.tsv no existe.")
