@@ -15,10 +15,6 @@ from homework.src._internals.split_into_words import split_into_words
 from homework.src._internals.write_word_counts import write_word_counts
 
 
-# "homework/src/_internals/count_words.py",
-# "homework/src/_internals/read_all_lines.py",
-# "homework/src/_internals/split_into_words.py",
-# "homework/src/_internals/write_word_counts.py",
 def main():
     if len(sys.argv) != 3:
         print("Usage: python3 -m homework <input_folder> <output_folder>")
